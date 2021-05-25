@@ -1,4 +1,4 @@
 {
     "jupyter.jupyterServerType": "local",
-    "python.pythonPath": "/usr/local/Caskroom/miniconda/base/envs/jnb/bin/python"
+    "python.pythonPath": "/usr/local/Caskroom/miniconda/base/envs/p9/bin/python"
 }
