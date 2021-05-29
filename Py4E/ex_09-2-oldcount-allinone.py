@@ -14,13 +14,17 @@ for lin in hand:
 
 	for w in wds:
 		# if the key is not there the count is Zero
-		oldcount = di.get(w,0) 
-		# get the value under the key be social with a key 
-		# or give me zero back
-		print(w,'~~old~~',oldcount)
-		newcount = oldcount + 1 
-		di[w] = newcount
+		# oldcount = di.get(w,0) 
+		# # get the value under the key be social with a key 
+		# # or give me zero back
+		# print(w,'~~old~~',oldcount)
+		# newcount = oldcount + 1 
+		# di[w] = newcount
+ 
+	## all above in one line:
+		#idiom :retrive/create/update counter
 
-		print(w,'--new--',newcount)
+		di[w] = di.get(w,0) + 1
+		print(w,'--new--',di[w])
 
 print(di)
