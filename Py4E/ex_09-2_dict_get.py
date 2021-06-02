@@ -16,7 +16,7 @@ for lin in hand:
 	for w in wds:
 
 		print('***************',w,di.get(w,-99))
-		if w in di:
+		if w in di: 
 			di[w] = di[w] + 1
 
 		else:
